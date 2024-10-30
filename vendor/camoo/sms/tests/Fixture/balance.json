@@ -1,0 +1,8 @@
+{
+  "message": "OK",
+  "balance": {
+    "balance": 3704.56,
+    "currency": "XAF"
+  },
+  "code": 200
+}

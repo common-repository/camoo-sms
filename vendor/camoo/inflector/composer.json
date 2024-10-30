@@ -1,0 +1,42 @@
+{
+	"name": "camoo/inflector",
+	"description": "Inflector Library",
+	"homepage": "https://camoo.cm",
+	"type": "camoo-plugin",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"version": "1.1",
+	"prefer-stable" : true,
+	"authors": [
+		{
+			"name": "Camoo S.A.R.L",
+			"email": "dev@camoo.sarl",
+			"role": "Developer"
+		}
+	],
+	"keywords" : [
+		"CAMOO",
+		"Inflector"
+	],
+
+	"autoload": {
+		"psr-4": {
+			"Camoo\\Inflector\\": "src"
+		}
+	},
+	"require": {
+		"php": ">=7.4",
+		"doctrine/inflector": "^2.0"
+	},
+	"suggest": {
+		"phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+	},
+	"scripts" : {
+		"test": "phpunit --colors=always"
+	},
+	"support": {
+		"issues": "https://github.com/camoo/inflector/issues",
+		"source": "https://github.com/camoo/inflector",
+		"wiki": "https://github.com/camoo/inflector/wiki"
+	}
+}

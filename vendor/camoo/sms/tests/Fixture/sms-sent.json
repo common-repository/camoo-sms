@@ -1,0 +1,18 @@
+{
+  "_message": "succes",
+  "sms": {
+    "message-count": 1,
+    "messages": [
+      {
+        "status": 0,
+        "message-id": "1981562859237661562194941475",
+        "message": "Hello world",
+        "to": "+237612345678",
+        "remaining-balance": "3857.56",
+        "message-price": 20,
+        "client-ref": "abcde"
+      }
+    ],
+    "code": 200
+  }
+}

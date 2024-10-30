@@ -1,0 +1,15 @@
+{
+  "message": "OK",
+  "sms": {
+    "status": "delivered",
+    "id": "1661562859237661562194941475",
+    "to": "+237612345678",
+    "message-price": "17",
+    "message": "Hello Kmer World! D\u00e9j\u00e0 vu!",
+    "created": "2023-02-03T08:50:34+00:00",
+    "status_time": "2023-02-03T10:00:40+00:00",
+    "sms_sender": "CamooTest",
+    "reference": ""
+  },
+  "code": 200
+}

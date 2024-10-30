@@ -1,0 +1,36 @@
+{
+    "name": "camoo/http-header-parser",
+    "type": "library",
+    "description": "A library to parse HTTP headers and HTTP header fields",
+    "keywords": ["http", "parser", "http parser", "http fields", "http request", "http response"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jairo Rodríguez",
+            "email": "jairo@bfunky.net",
+            "homepage": "http://www.bfunky.net"
+        },
+        {
+            "name": "Camoo Sarl",
+            "email": "dev@camoo.sarl",
+            "homepage": "https://www.camoo.cm"
+        }
+
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "BFunky\\HttpParser\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BFunky\\Test\\HttpParser\\" : "test"
+        }
+    }
+}

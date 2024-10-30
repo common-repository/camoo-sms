@@ -1,0 +1,31 @@
+{
+    "name": "nicoswd/php-gpg",
+    "description": "Pure PHP GPG implementation, forked from php-gpg.",
+    "type": "library",
+    "keywords": ["gpg", "pgp"],
+    "license": "GPL-1.0+",
+    "authors": [
+        {
+        "name": "Jason Hinkle"
+        },
+        {
+        "name": "Nicolas Oelgart"
+        },
+        {
+        "name": "Ian Carroll"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nicoSWD\\GPG\\": "src"
+        },
+        "files": ["src/globals.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "require": {
+        "php": ">=7.0",
+        "phpseclib/phpseclib": "^2.0"
+    }
+}

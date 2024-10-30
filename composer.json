@@ -1,0 +1,38 @@
+{
+	"name": "camoo/wp-camoo-sms",
+	"description": "WordPress CAMOO SMS Plugin",
+	"type": "library",
+	"require": {
+		"php": ">=8.1",
+		"camoo/sms": "^4.0"
+	},
+	"minimum-stability": "dev",
+	"homepage": "https://camoo.cm",
+	"license": "GPL-3.0+",
+	"prefer-stable" : true,
+	"authors": [
+		{
+			"name": "CAMOO SARL",
+			"email": "sms@camoo.sarl"
+		}
+	],
+	"keywords" : [
+		"CAMOO Plugin",
+		"SMS",
+		"WordPress SMS Plugin",
+		"BULK SMS",
+		"SMS Gateway",
+		"GPG SMS encrytion",
+		"wordpress",
+		"API-SMS"
+	],
+	"autoload": {
+		"psr-4": {
+			"CamooSms\\Gateway\\": "includes/gateways/libraries/"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/camoo/wp-camoo-sms/issues",
+		"source": "https://github.com/camoo/wp-camoo-sms"
+	}
+}

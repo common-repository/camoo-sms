@@ -1,0 +1,4 @@
+- Handle forwarding headers HTTP/1.1 100 Continue
+- Use get method to return header values too
+- 100% coverage
+- Mutant testing

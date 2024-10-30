@@ -1,0 +1,8 @@
+.idea
+
+.php-cs-fixer.cache
+.phpunit.result.cache
+phpunit.xml
+# Ignore composer generated files
+composer.phar
+vendor/
